@@ -1,0 +1,72 @@
+html, body, #app, #main{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#login {
+    width: 30%;
+    height: 300px;
+    background: linear-gradient(to bottom, #f19b6d, #EB8665);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.login-name-input {
+    margin-bottom: 10px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    flex: 1;
+    min-width: 20%;
+    background: linear-gradient(to bottom, #f19b6d, #EB8665);
+    color: #fff;
+}
+
+.right-side {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages-container {
+    flex: 1;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-input {
+    margin: 7px;
+    padding: 0px 10px;
+    height: 50px;
+    flex: 1;
+}
+
+.send-button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
